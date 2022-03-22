@@ -9,22 +9,16 @@
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build",
-            "program": "${workspaceFolder}/Operatorler/bin/Debug/net5.0/Operatorler.dll",
+            "program": "${workspaceFolder}/bin/Debug/net5.0/Operatorler.dll",
             "args": [],
-            "cwd": "${workspaceFolder}/Operatorler",
+            "cwd": "${workspaceFolder}",
             "console": "integratedTerminal",
             "stopAtEntry": false
         },
         {
-            "name": ".NET Core Launch (Değişkenler)",
+            "name": ".NET Core Attach",
             "type": "coreclr",
-            "request": "launch",
-            "preLaunchTask": "build",
-            "program": "${workspaceFolder}/Degiskenler/bin/Debug/net5.0/Degiskenler.dll",
-            "args": [],
-            "cwd": "${workspaceFolder}/Degiskenler",
-            "console": "integratedTerminal",
-            "stopAtEntry": false
+            "request": "attach"
         }
     ]
 }
