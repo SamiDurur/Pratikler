@@ -5,7 +5,18 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": ".NET Core Launch (console)",
+            "name": ".NET Core Launch (Operatorler)",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/Operatorler/bin/Debug/net5.0/Operatorler.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/Operatorler",
+            "console": "integratedTerminal",
+            "stopAtEntry": false
+        },
+        {
+            "name": ".NET Core Launch (Değişkenler)",
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build",
@@ -14,11 +25,6 @@
             "cwd": "${workspaceFolder}/Degiskenler",
             "console": "integratedTerminal",
             "stopAtEntry": false
-        },
-        {
-            "name": ".NET Core Attach",
-            "type": "coreclr",
-            "request": "attach"
         }
     ]
 }
