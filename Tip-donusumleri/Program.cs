@@ -43,8 +43,19 @@ namespace Tip_donusumleri
             float w=10.3f;
             byte v=(byte)w;
             Console.WriteLine("v: "+v);
+                
                 //ToString Methodu
+                
                 Console.WriteLine("***********ToString Methodu*************");
+                int xx=6;
+                string yy=xx.ToString();
+                Console.WriteLine("yy: "+yy);
+                
+                string zz=12.5f.ToString();
+                Console.WriteLine("zz: "+zz);
+
+                //
+
         }
     }
 }
