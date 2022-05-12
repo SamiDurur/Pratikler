@@ -12,7 +12,7 @@ namespace Operatorler
             
             // Atama ve İşlemli Atama
             
-            int s1=3;
+            int s1=31;
             int s2=9;
             s2=s2+2;
             
