@@ -9,7 +9,7 @@ namespace if_else_if
             
             int time=DateTime.Now.Hour;
 
-            /**************************************/
+            //İf-else if
 
             if(time>=6&&time<11)
                 Console.WriteLine("Good Morning!");
@@ -20,7 +20,7 @@ namespace if_else_if
             else
                 Console.WriteLine("Goodnight");
 
-            /***********************************/
+            //Ternary if
 
             string sonuc=time<=18 ? "Good Day":"Good Evening";
             Console.WriteLine(sonuc);
