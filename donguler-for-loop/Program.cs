@@ -80,6 +80,8 @@ namespace donguler_for_loop
                 }
                 Console.WriteLine(a+". a döngüsü tamamlandı");
             }
+            
+            //for (int i; ;)  Sonsuz döngüyü ifade eder
         }
     }
 }
