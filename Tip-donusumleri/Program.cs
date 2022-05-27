@@ -76,7 +76,7 @@ namespace Tip_donusumleri
         }
             public static void ParseMethod()
             {
-                    string metin1="10";
+                string metin1="10";
                 string metin2="10,55";
                 int rakam1;
                 double double1;
