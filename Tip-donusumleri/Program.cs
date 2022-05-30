@@ -74,18 +74,18 @@ namespace Tip_donusumleri
 
 
         }
-                public static void ParseMethod()
-                {
-                    string metin1="10";
-                    string metin2="10,55";
-                    int rakam1;
-                    double double1;
+            public static void ParseMethod()
+            {
+                 string metin1="10";
+                string metin2="10,55";
+                int rakam1;
+                double double1;
 
-                    rakam1=Int32.Parse(metin1);
-                    double1=Double.Parse(metin2);
+                rakam1=Int32.Parse(metin1);
+                double1=Double.Parse(metin2);
 
-                    Console.WriteLine("rakam1:"+rakam1);
-                    Console.WriteLine("double1:"+double1);
-                }
+                Console.WriteLine("rakam1:"+rakam1);
+                Console.WriteLine("double1:"+double1);
+            }
     } 
 }
