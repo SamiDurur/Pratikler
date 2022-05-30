@@ -40,6 +40,7 @@ namespace metotlar_overloading
 
         }
     }
+
     class Metotlar_Overloading
     {
         public void Topla(int a,int b,out int toplam)
