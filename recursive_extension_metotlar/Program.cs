@@ -6,7 +6,7 @@
         //Recursive - öz yinelemeli metotlar
         //3^4
         Islemler intence=new();
-        Console.WriteLine(intence.Expo(3,4));
+            Console.WriteLine(intence.Expo(3,4));
         
 
         //Extension Metotlar Genişletilebilir Metotlar
