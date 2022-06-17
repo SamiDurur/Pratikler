@@ -38,6 +38,24 @@ Console.WriteLine(DateTime.Now.ToString("MMMM"));//Haziran Gösterir
 Console.WriteLine(DateTime.Now.ToString("yy"));//22 Gösterir
 Console.WriteLine(DateTime.Now.ToString("yyyy"));//2022 Gösterir
 
-
+Console.WriteLine("******Math Kütüphanesi*****");
 //Math Kütüphanesi
 
+Console.WriteLine(Math.Abs(-25)); //25 - Mutlak halini ekrana yazdırır
+Console.WriteLine(Math.Sin(10)); // Belirtilen açının sinüsünü döndürür.
+Console.WriteLine(Math.Cos(10)); // Belirtilen açının kosinüsünü döndürür.
+Console.WriteLine(Math.Tan(10)); // Belirtilen açının tanjantını döndürür.
+
+Console.WriteLine(Math.Ceiling(22.3));//23 herzaman üstteki sayıya yuvarlar
+Console.WriteLine(Math.Round(22.3));//22 Enyakın sayıya yuvarlar 2.5 se 2 ye 2.6 ise 3 yuvarlar
+Console.WriteLine(Math.Round(22.6));//23
+Console.WriteLine(Math.Floor(22.7));//22 herzaman alttaki sayıya yuvarlar
+
+Console.WriteLine(Math.Min(22,3));//Küçük sayıyı ekrana getirir
+Console.WriteLine(Math.Max(22,3));//Büyük sayıyı ekrana getirir
+
+Console.WriteLine(Math.Pow(3,4));//3^4=81 - üç üzeri 4 işlemini yapıp ekrana getirir
+Console.WriteLine(Math.Sqrt(9));// 3 Sayının karekökünü ekrana getirir
+Console.WriteLine(Math.Log(9));// 9 un e tabanındaki logaritmik karşılığını ekranan getirir
+Console.WriteLine(Math.Exp(3));// e üzeri 3 ü verir
+Console.WriteLine(Math.Log10(10));//10 sayısının logaritma 10 karşılığını verir
