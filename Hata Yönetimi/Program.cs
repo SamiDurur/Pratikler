@@ -7,6 +7,15 @@ namespace Hata_Yönetimi
         static void Main(string[] args)
         {
             //Exception Handling - Hata Yönetimi
+            
+            //Manuel olarak Hata Fırlatma throw
+            int sayi1=-2;
+            if(sayi1<0)
+            throw new Exception("0 dan düşük değer girdin");
+            else
+            Console.WriteLine(sayi1);
+
+            
             /*
             try{ Hataya sebebiyet verme ihtimali olan kod }
             catch { Hata ile karşılaşıldığında ne yapılacağı buraya yazılır }
