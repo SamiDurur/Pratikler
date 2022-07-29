@@ -1,6 +1,8 @@
 ﻿//List<T> class
-//System.Collections.Generic
-//T-> object türündedir.
+//System.Collections.Generic namespace altından geliyor
+//<T> object türündedir.
+//List<T> -----<T>hangi tipte bir liste oluşturacağımızı burada belirleriz.
+//<int> - <string> - <T> - <var>
 
     List<int> sayiListesi = new List<int>();
     sayiListesi.Add(23);
@@ -87,16 +89,18 @@
         Console.WriteLine("Kullanıcı Soyadı:"+kullanıcı.Soyisim);
         Console.WriteLine("Kullanıcı Yaşı:"+kullanıcı.Yas);
     }
-
-
-    yeniListe.Clear();
+        
+        yeniListe.Clear();
 public class Kullanıcılar{
+
+
 
     private string isim;
     private string soyisim;
     private int yas;
 
-    public string Isim { get => isim; set => isim = value; }
+    public string Isim { get{return isim;} set{ isim=value; } }
     public string Soyisim { get => soyisim; set => soyisim = value; }
     public int Yas { get => yas; set => yas = value; }
+
 }
