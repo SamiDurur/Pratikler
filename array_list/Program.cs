@@ -23,6 +23,7 @@ foreach (var i in list)
 //AddRange diğer listeleri veya farklı liste türündekileri içine dahil etmeyi sağlar
 
 Console.WriteLine("**-** AddRange **-**");
+
 string[] renkler = new string[] { "sarı", "mavi", "mor" };
 List<int> sayilar = new List<int>() { 77, 33, 51, 24, 667, 2, 33, 1, 54 };
 list.AddRange(renkler);
@@ -32,26 +33,29 @@ foreach (var item in list)
     Console.WriteLine(item);
 
 //clear Listeyi temizleme
+
 Console.WriteLine("**-** clear **-**");
+
 list.Clear();
 
 list.AddRange(sayilar);
 
 //Sort
-//Sıralama yapılabilmesi için tüm değerlerin aynı türde olması lazım charsa hepsi char intse hepsi int stringse hepsi string 
+//Sıralama yapılabilmesi için tüm değerlerin aynı türde olması lazım charsa hepsi char intse hepsi int stringse hepsi string
+//değerler farklı türdeyse işlemi durdurur hata verir 
 
 Console.WriteLine("**-** Sort **-**");
 
 list.Sort();
-Console.WriteLine("**-** Sort **-**");
 
 foreach (var item in list)
     Console.WriteLine(item);
 
 //BinarySearch aradığın şeyin index ini verir
+
 Console.WriteLine("**-** Binary Search **-**");
 
-//değerler farklı türdeyse arama yapmaz 
+//değerler farklı türdeyse işlemi durdurur hata verir 
 Console.WriteLine(list.BinarySearch(1));
 
 //Reverse Listeyi ters çevirme
@@ -61,7 +65,7 @@ list.Reverse();
 
 foreach (var item in list)
     Console.WriteLine(item);
-
+//--------------------------------------------------
 Console.WriteLine("---------- Deneme ---------");
 
 Console.WriteLine("**-** string **-**");
